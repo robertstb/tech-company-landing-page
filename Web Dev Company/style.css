@@ -75,3 +75,30 @@ a:hover {
     grid-column: 2; 
     grid-row: 3 / span 2; 
 }
+
+/* MAIN */ 
+
+main {
+    display: grid; 
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-areas: 
+    ".... main ....";
+}
+
+/* SECTION A */ 
+
+.section-a {
+    margin: 2rem 0 2rem 0; 
+    display: flex; 
+    justify-content: space-between;
+    grid-area: main; 
+}
+
+.card-container {
+    width: 31%; 
+}
+
+.card-container img {
+    width: 100%; 
+    height: auto; 
+}
