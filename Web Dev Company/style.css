@@ -143,8 +143,8 @@ a:hover {
 /* SECTION B */ 
 
 .section-b {
-    background: rgba(39, 140, 245, 0.7);
-    grid-area: secb;
+    background-color:rgba(39, 140, 245, 0.7); 
+    color: #fff; 
 }
 
 .section-container {
@@ -161,11 +161,25 @@ a:hover {
 
 
 @media (min-width: 600px) {
-    main {
+    .section-a {
         display: grid; 
-        grid-template-columns: 5em 3fr 5em;
-        grid-template-areas: 
-        ".... main ...."
-        ".... secb ....";
+        grid-template-columns: 1fr 3fr 1fr;
+    }
+
+    .cards-holder {
+        grid-column: 2 / 3;
+        display: flex; 
+        justify-content: space-between;
+    }
+
+    .section-b {
+        display: grid; 
+        grid-template-columns: 1fr 3fr 1fr;
+        background-color:rgba(39, 140, 245, 0.7); 
+        padding: 2em 3em; 
+    }
+
+    .container {
+        grid-column: 2 / 3;
     }
 }
