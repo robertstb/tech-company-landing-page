@@ -167,7 +167,7 @@ a:hover {
 
 .form-container {
     margin: 50px auto; 
-    height: 35em; 
+    height: 40em; 
     width: 22em; 
     background:rgba(39, 140, 245, 0.7); 
     padding: 1em 2em; 
@@ -189,6 +189,7 @@ a:hover {
 
 .form-container label {
     display: inline-block; 
+    margin-bottom: 5px; 
 }
 
 .form-container input, textarea {
@@ -198,6 +199,7 @@ a:hover {
 
 .form-container input {
     height: 30px; 
+    margin-bottom: 12px; 
 }
 
 .form-container textarea {
