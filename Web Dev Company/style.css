@@ -159,6 +159,55 @@ a:hover {
 }
 
 
+/* SECTION C */
+
+.section-c {
+    display: flex; 
+}
+
+.form-container {
+    margin: 50px auto; 
+    height: 35em; 
+    width: 22em; 
+    background:rgba(39, 140, 245, 0.7); 
+    padding: 1em 2em; 
+}
+
+.form-container h2 {
+    text-transform: capitalize; 
+    font-size: 1.5rem; 
+    text-align: center; 
+}
+
+.form-container .star {
+    color: red;
+}
+
+.form-container .optional {
+    font-style: italic;  
+}
+
+.form-container label {
+    display: inline-block; 
+}
+
+.form-container input, textarea {
+    display: block; 
+    width: 100%; 
+}
+
+.form-container input {
+    height: 30px; 
+}
+
+.form-container textarea {
+    height: 100px; 
+}
+
+.form-container .submit{
+    margin: 10px 0px;
+}
+
 
 @media (min-width: 600px) {
     .section-a {
