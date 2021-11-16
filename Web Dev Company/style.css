@@ -150,6 +150,7 @@ a:hover {
 .image-container img {
     width: 25em; 
     height: auto; 
+    margin-right: 25px; 
 }
 
 .section-container {
