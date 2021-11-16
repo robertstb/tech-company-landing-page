@@ -204,6 +204,7 @@ a:hover {
 
 .form-container textarea {
     height: 100px; 
+    resize: none;
 }
 
 .form-container .submit{
