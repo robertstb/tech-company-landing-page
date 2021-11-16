@@ -167,7 +167,7 @@ a:hover {
 
 .form-container {
     margin: 50px auto; 
-    height: 40em; 
+    height: 36em; 
     width: 22em; 
     background:rgba(39, 140, 245, 0.7); 
     padding: 1em 2em; 
@@ -202,8 +202,15 @@ a:hover {
     margin-bottom: 12px; 
 }
 
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
 .form-container textarea {
     height: 100px; 
+    resize: none;
 }
 
 .form-container .submit{
