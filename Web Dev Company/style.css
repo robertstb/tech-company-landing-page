@@ -227,6 +227,9 @@ input[type=number]::-webkit-outer-spin-button {
 
 /* FOOTER */
 
+footer {
+    background-color:rgba(39, 140, 245, 0.7)
+}
 
 
 
