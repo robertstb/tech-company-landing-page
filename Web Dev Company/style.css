@@ -261,4 +261,9 @@ footer {
     .container p {
         display: inline-block;
     }
+
+    footer {
+        display: grid; 
+        grid-template-columns: 1fr 3fr 1fr;
+    }
 }
