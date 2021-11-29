@@ -208,6 +208,10 @@ a:hover {
     margin-bottom: 12px; 
 }
 
+.form-container .submit {
+    border-radius: 5px;
+}
+
 /* Removes input type="number" spinner arrows */ 
 input[type=number]::-webkit-inner-spin-button, 
 input[type=number]::-webkit-outer-spin-button { 
